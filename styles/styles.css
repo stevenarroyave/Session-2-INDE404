@@ -1,0 +1,69 @@
+body{
+  font-family: arial, sans-serif;
+  color: #979797;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+  color: #979797;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header .logo{
+  padding-left: 20px;
+  float: left;
+}
+
+header .logo h1,
+header .logo h2{
+  font-weight: normal;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .logo h1{
+  font-size: 36px;
+}
+
+header .logo h2{
+  font-size: 14px;
+}
+
+header nav{
+  float: right;
+  margin-left: 20px;
+  padding: 20px 0;
+}
+
+
+header nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li{
+  display: inline;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+header nav li.last{
+  margin-right: 0;
+}
+
+header nav li a:hover{
+  color: #f90;
+}
