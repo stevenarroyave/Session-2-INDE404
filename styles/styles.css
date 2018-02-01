@@ -6,6 +6,7 @@ body{
 }
 
 .clearfix{
+  overflow: auto;
   clear: both;
 }
 
@@ -115,7 +116,18 @@ main .buildingCard article{
 footer{
   margin-top: 20px;
   padding: 20px 0;
-  background-color: #933;
+  background-color: #004C99;
   color: #ffe;
   text-align: center;
 }
+
+ main .SideImage img{
+  width: 400px;
+  padding-right: 0px;
+  margin-left: 600px;
+  float: right;
+}
+main .sideImage p{
+  font-size: 12px;
+  font-family: arial, sans-serif;
+} 
